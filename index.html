@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pagina de login</title>
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+body{
+background-image: url("mass.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-color: #454d6b
+
+}
+
+
+
+#login {
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+height: 70vh;
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.card {
+
+    background-image: url("comeia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+padding: 40px;
+
+border-radius: 10px;
+
+width:280px;
+margin-top: 30px;
+border: solid white;
+
+
+}
+
+.card-header {
+
+padding-bottom: 50px;
+
+opacity: 0.8;
+
+color: #fff;
+
+}
+
+.card-header::after {
+
+content: "";
+
+width: 70px;
+
+height: 1px;
+
+background-color: #fff;
+
+display: block;
+
+margin-top: 0px;
+
+margin-left: 0px;
+
+
+}
+
+.card-content label {
+
+color: #fff;
+
+font-size: 12px;
+
+opacity: 0.8;
+
+}
+
+.card-content-area {
+
+display: flex;
+
+flex-direction: column;
+
+padding:10px 0;
+
+
+}
+
+.card-content-area input {
+
+margin-top: 10px;
+
+padding:0 5px;
+
+background-color: transparent;
+
+border:none;
+
+border-bottom: 1px solid #e1e1e1;
+
+outline: none;
+
+color: #fff;
+
+
+}
+
+.card-footer {
+
+display: flex;
+
+flex-direction: column;
+
+
+}
+
+.card-footer .submit{
+
+width: 100%;
+
+height: 40px;
+
+background-color: #a13854;
+
+border:none;
+
+color:#e1e1e1;
+
+margin: 10px 0;
+border: solid white;
+border-radius: 5px;
+
+}
+
+.card-footer a {
+
+text-align: center;
+
+font-size: 12px;
+
+opacity: 0.8;
+
+color: #fff;
+
+text-decoration: none;
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px 5px 5px yellow;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    background-position: center;
+    text-shadow: 3px 3px 3px red;
+    font-size: 50px;
+
+}
+
+footer{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+p{
+    padding: 25px;
+}
+
+
+h3{
+    background-color: black;
+}
+ 
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <h3>test</h3>
+
+    <header>
+        <h1>CTI GAMES</h1>
+    </header>
+    
+    <div id="login">
+
+        <form class="card">
+
+            <div class="card-header">
+
+                <h2>Login</h2>
+
+            </div>
+
+            <div class="card-content">
+
+                <div class="card-content-area">
+
+                    <label for="usuario">Usuário</label>
+
+                    <input type="text" id="usuario" autocomplete="off">
+
+                </div>
+
+                <div class="card-content-area">
+
+                    <label for="password">Senha</label>
+
+                    <input type="password" id="password" autocomplete="off">
+
+                </div>
+
+            </div>
+
+            <div class="card-footer">
+
+                <input type="submit" value="login" class="submit">
+
+                <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+                <br>
+                <a href="">Cadastre-se</a>
+
+            </div>
+
+        </form>
+
+    </div>
+    <footer>
+        <p>DESENVOLVIDO POR DEV GABRIELSANTOS</p>
+    </footer>
+</body>
+</html>
